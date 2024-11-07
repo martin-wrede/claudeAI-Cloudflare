@@ -48,7 +48,7 @@ async function summarize() {
     const options = {
       method: 'POST',
       headers: {
-    'Content-Type': 'application/json',
+    'content-type': 'application/json',
     'anthropic-dangerous-direct-browser-access': 'true',
       },
       body: JSON.stringify(messages),
